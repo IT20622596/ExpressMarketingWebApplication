@@ -1,0 +1,44 @@
+<!Doctype html>
+<html>
+<head>
+<title> User profile page</title>
+<link rel ="stylesheet" type="text/css" href="profile.css"> 
+<h1>My Profile</h1>
+</head>
+
+<body>
+<form action = "userprofile.php" method="post" onsubmit="checkPassword()">
+    Full Name:<br/>
+	<input type="text" name="full_name" placeholder ="Full Name" required><br/><br/>
+	Username:<br/>
+	<input type="text" name="username" placeholder="Username" id="userName" required/><br/><br/>
+	Password:<br/>
+	<input type="password" name="password" id="pwd" pattern = "(?=.+\d)(?=.+[a-z])(?=.+[A-Z]).{5,10}" required><br/><br/>
+	Re-enter password<br/>
+	<input type="password" name="cpassword" id="cnfrmpwd" required><br/><br/>
+	
+	<h2>Contact Info</h2>
+	
+	Mobile Number:<br>
+	<input type="phone" name="mobile" pattern="[0-9]{10}" placeholder="1234567890" required><br/><br/>
+	
+	Email:<br>
+	<input type="email" name="email" placeholder="abc@gmail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}" required><br/><br/>
+	
+	Address:<br/>
+	<textarea name="address" rows="8" cols="50" required></textarea><br><br/>
+	
+	Country:<br/>
+	<input type="text" name="country" required><br/><br/>
+	
+	Choose your DOB:<br/>
+	<input type="date" name="day" required<br/><br/>
+	
+	
+	<button type="submit" class="btn btn-primary">Submit</button>
+	
+	</form>
+	
+
+</body>
+</html>

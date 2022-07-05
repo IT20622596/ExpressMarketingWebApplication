@@ -1,0 +1,66 @@
+body{
+
+	margin:0;
+	padding:0;
+	text-align:center;
+	background-size:cover;
+	background-position:center;
+	font-family:sans-serif;
+
+
+}
+.contact-title
+{
+	
+	margin-top:100px;
+	color:#fff;
+	text-transform:uppercase;
+	
+}
+.contact-title h1{
+	font-size:32px;
+	line-height:10px;
+}
+.contact-title h2{
+	
+	font-size:14px;
+}
+form{
+	width:500px;
+	margin:auto;
+	padding:20px;
+	background:#663366;
+	font-size:14px;
+	font-family:Verdana;
+	color:white;
+	
+	
+}
+
+input{
+	height:50px;
+}
+
+form submit{
+	background:#ff5722;
+	border-color:transparent;
+	color:#fff;
+	font-size:200px;
+	font-weight:bold;
+	letter-spacing:2px;
+	height:50px;
+	margin-top:20px;
+}
+
+form.submit:hover{
+	background-color:#f44336;
+	cursor:pointer;
+}
+	
+	
+	
+}
+	
+	
+	
+	
